@@ -3,7 +3,12 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-image: url(../img/background.jpg);
+	font-family: 'Open Sans','helvetica',arial,sans-serif;
 	
+}
+h1,h2,h3,h4,h5,h6{
+	color: #333;
+	font-weight: 300;
 }
 .container{
 	width: 960px;
@@ -35,5 +40,55 @@ body{
 	
 	border-radius: 999px;
 	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+	
+}
+.main-nav{
+	background-color: #333;
+}
+.main-nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.main-nav ul li{
+	display: inline-block;
+	margin: 20px 15px;
+}
+.main-nav ul li a{
+	color: #fff;
+	font-size: 1.0rem;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	
+}
+.main-nv ul li a:hover{
+	text-decoration: underline;
+}
+.info-section{
+	background-color: #fff;
+}
+section header{
+	text-align: center;
+	padding-top: 50px;
+}
+section ul{
+	list-style: none;
+}
+section ul.whatido__skill-list{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+section ul li.whatido__skill{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	letter-spacing: normal;
+	word-spacing: normal;
+	zoom: 1;
 	
 }
