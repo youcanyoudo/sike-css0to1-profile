@@ -1,3 +1,6 @@
+html{
+	box-sizing: border-box;
+}
 body{
 	background-position: center;
 	background-attachment: fixed;
@@ -82,6 +85,7 @@ section header h2{
 
 section ul{
 	list-style: none;
+	margin: 5 auto;
 }
 section ul.whatido__skill-list{
 	display: block;
@@ -98,4 +102,26 @@ section ul li.whatido__skill{
 	word-spacing: normal;
 	zoom: 1;
 	
+}
+.education-experience__list{
+	overflow: hidden;
+}
+.education-experience__list li{
+	margin: 20px auto;
+	overflow: hidden;
+}
+.education-experience-content{
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+}
+.education-experience__list__description img{
+	display: inline-block;
+	padding: 0 20px;
+	width: 20%;
+}
+.photos__list li{
+	box-sizing: inherit;
+	width: 25%;
+	display: inline;
 }
