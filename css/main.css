@@ -1,0 +1,39 @@
+body{
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(../img/background.jpg);
+	
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 1px;
+	
+	
+}
+.main-header{
+	background-image: url(../img/banner.jpg);
+	text-align: center;
+	margin-top: 100px;
+	padding: 1px;
+	
+	font-size: 20;
+	font-weight: 300;
+	font-family: 'Open Sans','helvetica',arial,sans-serif;
+	text-shadow: 0 1px rgba(0,0,0,0.3);
+}
+.main-header *{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.main-header-avatar{
+	display: block;
+	margin: 0 auto;
+	margin-top: -70px;
+	border: 3px solid white;
+	
+	border-radius: 999px;
+	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+	
+}
