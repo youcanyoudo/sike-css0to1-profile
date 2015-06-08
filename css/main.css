@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5,h6{
 }
 section header{
 	text-align: center;
-	padding-top: 50px;
+	padding: 50px;
 }
 
 section header h2{
@@ -141,4 +141,55 @@ section .photos__list li img{
 }
 section.get-in-touch{
 	clear: both;
+}
+.get-in-touch header{
+	padding:50px;
+}
+section .get-in-touch__list{
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+}
+section .get-in-touch__list li{
+	box-sizing: inherit;
+	display: inline-block;
+	margin: 10px 10px;
+	text-align: center;
+	width: 20%;
+}
+.contact{
+}
+.contact form{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	text-align: right;
+}
+.contact form .ps{
+	margin: 0 auto;
+}
+.contact form .form-grid{
+}
+.contact input{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 8px;
+	left: 100%;
+	width: 300px;
+}
+.contact textarea{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 8px;
+	left: 100%;
+	width: 300px;
+}
+.contact button{
+	border: none;
+	border-radius: 999px;
+	background: #ffd524;
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	color: #fff;
+	box-shadow: 0 3px 0 #daae1d;
 }
