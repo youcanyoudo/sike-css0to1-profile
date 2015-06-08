@@ -85,7 +85,6 @@ section header h2{
 
 section ul{
 	list-style: none;
-	margin: 5 auto;
 }
 section ul.whatido__skill-list{
 	display: block;
@@ -120,8 +119,26 @@ section ul li.whatido__skill{
 	padding: 0 20px;
 	width: 20%;
 }
-.photos__list li{
+
+section.photos{
+	overflow: hidden;
+}
+section .photos__list{
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+}
+section .photos__list li{
 	box-sizing: inherit;
 	width: 25%;
-	display: inline;
+	float: left;
+	padding: 10px;
+	background-color: #fff;
+	
+}
+section .photos__list li img{
+	width: 100%;
+}
+section.get-in-touch{
+	clear: both;
 }
