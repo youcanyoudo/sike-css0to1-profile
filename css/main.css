@@ -161,6 +161,7 @@ section .get-in-touch__list li{
 	display: block;
 	position: relative;
 	margin: 0 auto;
+	padding: 10px;
 }
 .contact input,
 .contact textarea {
