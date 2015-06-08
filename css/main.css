@@ -157,39 +157,40 @@ section .get-in-touch__list li{
 	text-align: center;
 	width: 20%;
 }
-.contact{
-}
-.contact form{
+.contact form .form-area .input{
 	display: block;
-	width: 50%;
-	margin: 0 auto;
-	text-align: right;
-}
-.contact form .ps{
+	position: relative;
 	margin: 0 auto;
 }
-.contact form .form-grid{
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
 }
-.contact input{
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	padding: 8px;
-	left: 100%;
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+.contact form .form-area{
 	width: 300px;
+	margin: 0 auto;
 }
-.contact textarea{
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	padding: 8px;
-	left: 100%;
-	width: 300px;
+.contact form .form-area .outside{
+	position: absolute;
+	right: 100%;
+	padding-right: 10px;
 }
-.contact button{
-	border: none;
-	border-radius: 999px;
-	background: #ffd524;
-	cursor: pointer;
-	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
-	color: #fff;
-	box-shadow: 0 3px 0 #daae1d;
+.contact form .form-area button{
+	width: 100%;
+	margin-top: 10px;
 }
